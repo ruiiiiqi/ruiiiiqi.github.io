@@ -147,7 +147,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   working_papers:
     output: false  # Prevents individual paper pages
 
