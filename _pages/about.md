@@ -28,13 +28,24 @@ latest_posts:
   
 ---  
 
-I am a fourth-year Ph.D. candidate in [Operations Research and Financial Engineering](https://orfe.princeton.edu/) at Princeton University, advised by [Matias Cattaneo](https://cattaneo.princeton.edu/). My research interests lie in **causal inference**, **econometrics** and **mathematical statistics**.
+I am a fifth-year Ph.D. candidate in [Operations Research and Financial Engineering](https://orfe.princeton.edu/) at Princeton University, advised by [Matias Cattaneo](https://cattaneo.princeton.edu/). 
+My goal is to design methodologies that embody best practices with provable guarantees, and advance understanding of complex models and methods. I mainly work on:
 
-My goal is to develop methodologies for estimation and uncertainty quantification in causal inference and econometrics problems, particularly in complex data settings. My work includes causal inference via **regression discontinuity designs**, under **network interference**, and for **climate data**. I am also interested in causal inference based on **text data** and **theoretical machine learning**.
+ - **Foundational Research in Applied Probability and Statistics,** focusing on _large sample approximation_ and _asymptotic theory_:
+ 
+   Gaussian coupling theory that leverages structural information for faster convergence rates; 
+   
+   Distributional approximations beyond the Gaussian regime, including statistical-physics models that capture Gaussian-to-non-Gaussian phase transitions.
 
-Beyond causal inference, I work on mathematical statistics problems abstracted from causal applications. My research includes:
-- **Strong Gaussian approximation** for empirical processes, which provides theoretical justifications for the validity of confidence bands.
-- **Berry-Esseen bounds** for the magnetization of the Ising model with independent multipliers.
+ - **Causal Inference with Complex Data,** focusing on _uniform, finite sample uncertainty quantification_: 
+ 
+   Uniform accuracy of machine learning methods for heterogeneous treatment effects and counterfactual distribution estimation; 
+   
+   Inference under statistical-physics-inspired network interference that adapts between Gaussian and non-Gaussian limits; 
+   
+   Spatial regression discontinuity methods with open source software.
+   
+My work in practical causal problems often raise the theoretical questions I study, and the resulting theory yields procedures that are both principled and improved. 
 
 Prior to this, I obtained a Honors Bachelor of Science in Mathematics and Its Application in Financial Economics at University of Toronto in 2021, where I worked as a research assistant for [Yosh Halberstam](https://yoshhalberstam.github.io/).
 
