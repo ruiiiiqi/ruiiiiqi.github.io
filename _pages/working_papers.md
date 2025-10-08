@@ -2,7 +2,7 @@
 layout: page
 title: working papers
 permalink: /working-papers/
-nav: true
+nav: false
 nav_order: 3
 ---
 

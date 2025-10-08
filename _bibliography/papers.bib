@@ -5,21 +5,35 @@
 
 @article{cattaneo2024strong,
   title={Strong approximations for empirical processes indexed by Lipschitz functions},
-  author={Cattaneo, Matias D and Yu, Ruiqi (Rae)},
-  journal={Annals of Statistics, forthcoming},
+  author={Cattaneo, Matias D and Yu, Ruiqi Rae},
+  journal={Annals of Statistics},
   year={2025},
   Selected={true},
   abbr={AoS},
-  abstract = {This paper presents new uniform Gaussian strong approximations for empirical processes indexed by classes of functions based on \(d\)-variate random vectors (\(d \geq1 \)). First, a uniform Gaussian strong 	approximation is established for general empirical processes indexed by possibly Lipschitz functions, improving on previous results in the literature. In the setting considered by [Rio (1994)], and if the function class is Lipschitzian, our result improves the approximation rate \(n^\{-1/(2d)\}\) to \(n^\{-1/\max\\{d,2\\}\}\), up to a \(polylog(n)\) term, where \(n\) denotes the sample size. Remarkably, we establish a valid uniform Gaussian strong approximation at the rate \(n^\{-1/2\}\log n\) for \(d=2\), which was previously known to be valid only for univariate (\(d=1\)) empirical processes via the celebrated Hungarian construction [Koml{\'o}s, Major, Tusn{\'a}dy (1975)]. Second, a uniform Gaussian strong approximation is established for multiplicative separable empirical processes indexed by possibly Lipschitz functions, which addresses some outstanding problems in the literature [Chernozhukov, Chetverikov, Kato (2014)]. Finally, two other uniform Gaussian strong approximation results are presented when the function class is a sequence of Haar basis based on quasi-uniform partitions. Applications to nonparametric density and regression estimation are discussed.},
-  pdf={2406.04191v2.pdf},
-  url={https://arxiv.org/abs/2406.04191},
-  html={https://arxiv.org/abs/2406.04191},
+  abstract = {This paper presents new uniform Gaussian strong approximations for empirical processes indexed by classes of functions based on \(d\)-variate random vectors (\(d \geq1 \)). First, a uniform Gaussian strong 	approximation is established for general empirical processes indexed by possibly Lipschitz functions, improving on previous results in the literature. In the setting considered by [Rio (1994)], and if the function class is Lipschitzian, our result improves the approximation rate \(n^\{-1/(2d)\}\)~to \(n^\{-1/\max\\{d,2\\}\}\), up to a \(polylog(n)\)~term, where \(n\)~denotes the sample size. Remarkably, we establish a valid uniform Gaussian strong approximation at the rate \(n^\{-1/2\}\log n\)~for \(d=2\), which was previously known to be valid only for univariate (\(d=1\))~empirical processes via the celebrated Hungarian construction [Koml{\'o}s, Major, Tusn{\'a}dy (1975)]. Second, a uniform Gaussian strong approximation is established for multiplicative separable empirical processes indexed by possibly Lipschitz functions, which addresses some outstanding problems in the literature [Chernozhukov, Chetverikov, Kato (2014)]. Finally, two other uniform Gaussian strong approximation results are presented when the function class is a sequence of Haar basis based on quasi-uniform partitions. Applications to nonparametric density and regression estimation are discussed.},
+  pdf={25-AOS2500.pdf},
+  url={https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-3/Strong-approximations-for-empirical-processes-indexed-by-Lipschitz-functions/10.1214/25-AOS2500.full},
+  html={https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-3/Strong-approximations-for-empirical-processes-indexed-by-Lipschitz-functions/10.1214/25-AOS2500.full},
+  bibtex_show={true}
+}
+
+@article{cattaneo2025honest,
+  title={The Honest Truth About Causal Trees: Accuracy Limits for Heterogeneous Treatment Effect Estimation},
+  author={Cattaneo, Matias D and Klusowski, Jason M and Yu, Ruiqi Rae},
+  journal={arXiv preprint arXiv:2509.11381},
+  year={2025},
+  Selected={true},
+  abbr={arXiv},
+  abstract={This paper studies recursive decision trees for heterogeneous causal treatment effect estimation and inference in experimental and observational settings. These procedures are typically fitted with the CART (Classification and Regression Tree) algorithm [Breiman et al. (1984)] or close variants, and thus are often believed to be “adaptive” to high-dimensional data, sparsity, or other structural features of the data-generating process. Building on the “honest” causal trees proposed by [Athey & Imbens (2016)], which have become standard in academia and industry, we analyze those estimators (and variants) and establish lower bounds on their estimation error. We show that these popular heterogeneous-treatment-effect estimators cannot attain a polynomial-in-\(n\)~convergence rate under basic conditions, where \(n\)~denotes the sample size. Contrary to common belief, honesty does not remove these limitations and at best yields negligible logarithmic improvements in sample size or dimension. Consequently, these widely used estimators can perform poorly in practice and may even be inconsistent in some settings. Theoretical insights are corroborated with simulation evidence.},
+  pdf = {2509.11381v1.pdf},
+   url={https://arxiv.org/abs/2509.11381},
+  html={https://arxiv.org/abs/2509.11381},
   bibtex_show={true}
 }
 
 @article{cattaneo2025robust,
   title={Robust Inference for the Direct Average Treatment Effect with Treatment Assignment Interference},
-  author={Cattaneo, Matias D and He, Yihan and Yu, Ruiqi (Rae)},
+  author={Cattaneo, Matias D and He, Yihan and Yu, Ruiqi Rae},
   journal={arXiv preprint arXiv:2502.13238},
   year={2025},
   abbr={arXiv},
@@ -31,23 +45,48 @@
   bibtex_show={true}
 }
 
-@article{cattaneo2025estimation,
-  title={Estimation and inference in boundary discontinuity designs},
-  author={Cattaneo, Matias D and Titiunik, Rocio and Yu, Ruiqi Rae},
-  journal={arXiv preprint arXiv:2505.05670},
-  year={2025}
-}
-
 @article{cattaneo2025rd2d,
   title={rd2d: Causal Inference in Boundary Discontinuity Designs},
   author={Cattaneo, Matias D and Titiunik, Rocio and Yu, Ruiqi Rae},
   journal={arXiv preprint arXiv:2505.07989},
-  year={2025}
+  year={2025},
+   abbr={arXiv},
+  Selected={true},
+  abstract={Boundary discontinuity designs—also known as Multi-Score Regression Discontinuity (RD) designs, with Geographic RD designs as a prominent example—are often used in empirical research to learn about causal treatment effects along a continuous assignment boundary defined by a bivariate score. This article introduces the R package `rd2d`, which implements and extends the methodological results developed in Cattaneo et al.&nbsp;[2025] for boundary discontinuity designs. The package employs local polynomial estimation and inference using either the bivariate score or a univariate distance-to-boundary metric. It features novel data-driven bandwidth selection procedures, and offers both pointwise and uniform estimation and inference along the assignment boundary. The numerical performance of the package is demonstrated through a simulation study.},
+  pdf = {2505.07989v2.pdf},
+  url={https://arxiv.org/abs/2505.07989},
+  html={https://arxiv.org/abs/2505.07989},
+  bibtex_show={true}
+
 }
 
-@article{cattaneo2025honest,
-  title={The Honest Truth About Causal Trees: Accuracy Limits for Heterogeneous Treatment Effect Estimation},
-  author={Cattaneo, Matias D and Klusowski, Jason M and Yu, Ruiqi Rae},
-  journal={arXiv preprint arXiv:2509.11381},
-  year={2025}
+@article{cattaneo2025location,
+  title={Estimation and Inference in Boundary Discontinuity Designs: Location-Based Methods},
+  author={Cattaneo, Matias D and Titiunik, Rocio and Yu, Ruiqi Rae},
+  year={2025},
+  Selected = {true},
+  abbr={working paper},
+  abstract = {Boundary discontinuity designs are used to learn about causal treatment effects along a continuous assignment boundary that splits units into control and treatment groups according to a bivariate location score. We analyze the statistical properties of local polynomial treatment effect estimators employing location information for each unit. We develop pointwise and uniform estimation and inference methods for both the conditional treatment effect function at the assignment boundary as well as for transformations thereof, which aggregate information along the boundary. We illustrate our methods with an empirical application. Companion general-purpose software is provided.},
+  bibtex_show = {true}
 }
+
+@article{cattaneo2025distance,
+  title={Estimation and Inference in Boundary Discontinuity Designs: Distance-Based Methods},
+  author={Cattaneo, Matias D and Titiunik, Rocio and Yu, Ruiqi Rae},
+  year={2025},
+  Selected = {true},
+  abbr={working paper},
+  abstract = {We study the statistical properties of nonparametric distance-based (isotropic) local polynomial regression estimators of the conditional average treatment effect at the boundary, a key causal functional parameter capturing heterogeneous treatment effects in boundary discontinuity designs. We present necessary and/or sufficient conditions for identification, estimation and inference in large samples, both pointwise and uniformly along the assignment boundary. Our theoretical results highlight the crucial role played by the ``regularity" of the boundary (a one-dimensional manifold) over which identification, estimation and inference is conducted. Our methods are illustrated with simulated and real-world data. Companion general-purpose software is provided.},
+  bibtex_show = {true}
+}
+
+@article{cattaneo2025boundaryavg,
+  title={Identification, Estimation, and Inference for Boundary Average Treatment Effects},
+  author={Cattaneo, Matias D and Titiunik, Rocio and Yu, Ruiqi Rae},
+  year={2025},
+  Selected = {true},
+  abbr={working paper},
+  abstract = {Boundary Discontinuity designs are used to learn about average treatment effects at a continuous boundary that splits units into control and treatment groups according to a bivariate score variable. This research design is also called Multi-Score Regression Discontinuity design, a leading special case being the Geographic Regression discontinuity Design.},
+  bibtex_show = {true}
+}
+
