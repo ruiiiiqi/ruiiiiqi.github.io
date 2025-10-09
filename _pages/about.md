@@ -41,7 +41,6 @@ service:
     - "Journal of the American Statistical Association" 
     - "Operations Research" 
     - "Statistical Science"
-  
 ---  
 
 I am a fifth-year Ph.D. candidate in [Operations Research and Financial Engineering](https://orfe.princeton.edu/) at Princeton University, advised by [Matias Cattaneo](https://cattaneo.princeton.edu/). 
