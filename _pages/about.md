@@ -13,7 +13,7 @@ profile:
     <p>Charlton Street</p>
     <p>Princeton, NJ 08540</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -30,20 +30,15 @@ latest_posts:
 
 I am a fifth-year Ph.D. candidate in [Operations Research and Financial Engineering](https://orfe.princeton.edu/) at Princeton University, advised by [Matias Cattaneo](https://cattaneo.princeton.edu/). 
 My goal is to design methodologies that embody best practices with provable guarantees, and advance understanding of complex models and methods. I mainly work on:
+   
+- **Foundational Research in Applied Probability and Statistics**, focusing on _large sample approximation_ and _asymptotic theory_:
+  - Gaussian coupling theory that leverages structural information
+  - Distributional approximations beyond the Gaussian regime
 
- - **Foundational Research in Applied Probability and Statistics,** focusing on _large sample approximation_ and _asymptotic theory_:
- 
-   Gaussian coupling theory that leverages structural information for faster convergence rates; 
-   
-   Distributional approximations beyond the Gaussian regime, including statistical-physics models that capture Gaussian-to-non-Gaussian phase transitions.
-
- - **Causal Inference with Complex Data,** focusing on _uniform, finite sample uncertainty quantification_: 
- 
-   Uniform accuracy of machine learning methods for heterogeneous treatment effects and counterfactual distribution estimation; 
-   
-   Inference under statistical-physics-inspired network interference that adapts between Gaussian and non-Gaussian limits; 
-   
-   Spatial regression discontinuity methods with open source software.
+- **Causal Inference with Complex Data**, focusing on _uniform, finite-sample uncertainty quantification_:
+  - ML for heterogeneous treatment effects estimation
+  - Inference under network interference
+  - Spatial regression discontinuity methods with open-source software
    
 My work in practical causal problems often raise the theoretical questions I study, and the resulting theory yields procedures that are both principled and improved. 
 
