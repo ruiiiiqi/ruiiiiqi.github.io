@@ -56,6 +56,18 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- CV button -->
+    <p>
+      <a class="btn btn-sm"
+         style="background-color: var(--global-theme-color);
+                color: var(--global-bg-color);
+                border: none;"
+         href="{{ '/assets/pdf/Ruiqi_Rae_Yu_CV.pdf' | relative_url }}"
+         target="_blank" rel="noopener">
+         CV
+      </a>
+    </p>
+
     <!-- Papers -->
     {% if page.selected_papers %}
       <h2 style="color: inherit">Papers</h2>
