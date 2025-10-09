@@ -74,6 +74,25 @@ layout: default
     {% include selected_papers.liquid %}
     {% endif %}
 
+    {% if page.teaching and page.teaching.enabled %}
+      <h2 style="color: inherit">Teaching</h2>
+      <ul>
+        {% for item in page.teaching.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.service and page.service.enabled %}
+      <h2 style="color: inherit">Peer Review</h2>
+      <ul>
+        {% for item in page.service.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

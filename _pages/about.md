@@ -26,6 +26,22 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
   
+teaching:
+  enabled: true
+  items:
+    - "ORF 524: Statistical Theory & Methods — TA (Fall 2025)"
+    - "ORF 245: Fundamental of Statistics — TA (Fall 2022, Spring 2023, Fall 2023)"
+service:
+  enabled: true
+  items:
+    - "Economic Letters"
+    - "Econometric Theory"
+    - "Journal of Causal Inference"
+    - "Journal of Econometrics"
+    - "Journal of the American Statistical Association" 
+    - "Operations Research" 
+    - "Statistical Science"
+  
 ---  
 
 I am a fifth-year Ph.D. candidate in [Operations Research and Financial Engineering](https://orfe.princeton.edu/) at Princeton University, advised by [Matias Cattaneo](https://cattaneo.princeton.edu/). 
