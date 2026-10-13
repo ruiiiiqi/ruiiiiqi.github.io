@@ -48,15 +48,18 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
-          # Skip documentation excluded from the site and pages with unrendered Liquid links.
+          # Skip unpublished documentation/projects and pages with unrendered Liquid links.
+          # Projects are not enabled in _config.yml; the folder contains unused theme examples.
           # The post-deployment workflow checks local links in the rendered HTML.
           args: >-
             --user-agent 'curl/7.54'
+            --max-retries 3 --retry-wait-time 5
             --exclude-path README.md
             --exclude-path CONTRIBUTING.md
             --exclude-path CUSTOMIZE.md
             --exclude-path FAQ.md
             --exclude-path INSTALL.md
+            --exclude-path _projects
             --exclude-path _pages/404.md
             --exclude-path _pages/blog.md
             --exclude-path _pages/working_papers.md
