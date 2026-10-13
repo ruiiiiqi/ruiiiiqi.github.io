@@ -38,6 +38,14 @@ body.sticky-bottom-footer {
   }
 }
 
+// Give the homepage research topics more room beside the portrait on wide screens.
+@media (min-width: 1200px) {
+  .about-page .profile.float-right {
+    width: 24%;
+    margin-right: -5rem;
+  }
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************

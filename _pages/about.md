@@ -9,9 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>220 Sherrerd Hall</p>
-    <p>Charlton Street</p>
-    <p>Princeton, NJ 08540</p>
+    <p>Quantitative Researcher</p>
+    <p>Chicago Trading Company</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -43,19 +42,15 @@ service:
     - "Statistical Science"
 ---  
 
-I am a fifth-year Ph.D. candidate in [Operations Research and Financial Engineering](https://orfe.princeton.edu/) at Princeton University, advised by [Matias Cattaneo](https://cattaneo.princeton.edu/). 
-My goal is to design methodologies that embody best practices with provable guarantees, and advance understanding of complex models and methods. I mainly work on:
-   
-- **Foundational Research in Applied Probability and Statistics**, focusing on _large sample approximation_ and _asymptotic theory_:
-  - Gaussian coupling theory that leverages structural information
-  - Distributional approximations beyond the Gaussian regime
+I am a **quantitative researcher at Chicago Trading Company**.
 
-- **Causal Inference with Complex Data**, focusing on _uniform, finite-sample uncertainty quantification_:
-  - ML for heterogeneous treatment effects estimation
-  - Inference under network interference
-  - Spatial regression discontinuity methods with open-source software
-   
-My work in practical causal problems often raise the theoretical questions I study, and the resulting theory yields procedures that are both principled and improved. 
+Previously, I completed my Ph.D. in [Operations Research and Financial Engineering](https://orfe.princeton.edu/) at Princeton University, where I was advised by [Matias Cattaneo](https://cattaneo.princeton.edu/).
 
-Prior to this, I obtained a Honors Bachelor of Science in Mathematics and Its Application in Financial Economics at University of Toronto in 2021, where I worked as a research assistant for [Yosh Halberstam](https://yoshhalberstam.github.io/).
+My research focuses on statistical and machine learning methods for **causal inference**, as well as **foundational questions in probability**. My work includes:
 
+- **Causal inference:** regression discontinuity designs, heterogeneous effects, network interference.
+- **Foundations:** strong approximation, decision trees under weak signals.
+
+I am interested in applications to social science and finance.
+
+Before Princeton, I earned an Honours Bachelor of Science in Mathematics and Its Applications in Financial Economics from the University of Toronto, where I worked with [Yosh Halberstam](https://yoshhalberstam.github.io/).
