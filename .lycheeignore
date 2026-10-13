@@ -1,2 +1,8 @@
 linkedin.com
 reddit.com
+
+# Verified public pages that return HTTP 403 to automated checks (2026-10-13).
+^https://orfe\.princeton\.edu/$
+^https://cattaneo\.princeton\.edu/$
+^https://stackoverflow\.com/questions/34987908/embed-a-code-block-in-a-list-item-with-proper-indentation-in-kramdown/38090598(?:#38090598)?$
+^https?://www\.intmath\.com/cg5/katex-mathjax-comparison\.php$

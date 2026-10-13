@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -24,7 +24,7 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
-  
+
 teaching:
   enabled: true
   items:
@@ -37,10 +37,10 @@ service:
     - "Econometric Theory"
     - "Journal of Causal Inference"
     - "Journal of Econometrics"
-    - "Journal of the American Statistical Association" 
-    - "Operations Research" 
+    - "Journal of the American Statistical Association"
+    - "Operations Research"
     - "Statistical Science"
----  
+---
 
 I am a **quantitative researcher at Chicago Trading Company**.
 

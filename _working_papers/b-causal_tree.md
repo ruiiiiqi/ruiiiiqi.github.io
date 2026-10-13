@@ -8,4 +8,3 @@ covariate domain is needed. We show that in the constant treatment effect model,
 methodology can not converge faster than polynomial-in-n. Shallow (honest) causal decision tree estimators are hence shown to be inconsistent, 
 as a function of the sample size, for some point in the covariate domain." 
 ---
-
